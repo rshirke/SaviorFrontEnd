@@ -1,0 +1,20 @@
+body {
+
+  background-image: url("/images/image.jpg");
+  color: orangered;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+}
+
+#mainpage
+{
+
+  margin-left: 40%;
+
+}
+a {
+  color: orangered;
+}

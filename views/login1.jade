@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .row
+    .col-md-12
+      h1 Welcome to Max Buy Application
+        div
+        h1.signup_hd_txt Please Enter Username and Password
+        div.signup_form
+         form(role="form",method="POST", action= "/login/")
+          p
+          p.sp_label UserName
+          input.sp_box(type="text", name="username")
+          p
+          p.sp_label Password
+          input.sp_box(type="text", name="password")
+          p
+          br
+          button.btn.btn-primary(type="submit") Submit
